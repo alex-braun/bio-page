@@ -11,10 +11,10 @@
 
 /*
 * BASIC
-  - General Style    
-  - Typography Style    
+  - General Style
+  - Typography Style
   - Button Style
-  - Form Style    
+  - Form Style
   - Spacer Style
 
 * HEADER
@@ -42,7 +42,7 @@
   - Contact Form, Map, contact-info
   - Preloader
   - Countdown Clock
-  
+
 * FOOTER
   - Social
   - Copyright
@@ -138,7 +138,9 @@ body {
 #intro .bg-image, #intro.bg-image, #inner-intro .bg-image, #inner-intro.bg-image {
     background-attachment: fixed;
 }
-
+.portrait {
+  width: 40%;
+}
 .slide-bg-image {
     background-position: center center;
     background-repeat: no-repeat;
@@ -152,6 +154,7 @@ body {
 .overlay-dark, .overlay-dark20, .overlay-dark30, .overlay-dark40, .overlay-dark60, .overlay-dark80, .overlay-dark90, .overlay-light, .overlay-light80 {
     position: relative;
     z-index: 1;
+    /*opacity: 0.95;*/
 }
 
     .overlay-dark:before, .overlay-dark20:before, .overlay-dark30:before, .overlay-dark40:before, .overlay-dark60:before, .overlay-dark80:before, .overlay-dark90:before, .overlay-light:before, .overlay-light80:before {
@@ -1026,6 +1029,7 @@ form label.error {
 /*--*/
 .p-60 {
     padding: 60px;
+    text-align: center;
 }
 
 .ptb-60 {
@@ -1040,6 +1044,8 @@ form label.error {
 
 .pt-60 {
     padding-top: 60px;
+    /*margin: 0 auto;*/
+    text-align: center;
 }
 
 .pb-60 {
@@ -1461,7 +1467,7 @@ form label.error {
 }
 
 .mb-60 {
-    margin-bottom: 60px !important;
+    margin-bottom: 40px !important;
 }
 /*--*/
 .m-55 {
@@ -3134,6 +3140,12 @@ ul.icon-tab-nav, .icon-tab-nav ul {
     margin-bottom: 0;
 }
 
+.devi {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
 
 /*------------------------------------------------------------------*/
 /* Pricing-box */
@@ -3729,17 +3741,19 @@ form .error {
 
 /* Icon Style 2 */
 .content-box.alt-left {
-    padding-left: 65px;
-    text-align: left;
-    margin-bottom: 35px;
-    position: relative;
+  padding-left: 65px;
+  height: 60px;
+  text-align: left;
+  margin-bottom: 35px;
+  position: relative;
 }
 
 .content-box.alt-right {
-    padding-right: 65px;
-    text-align: right;
-    margin-bottom: 35px;
-    position: relative;
+  padding-right: 65px;
+  height: 60px;
+  text-align: right;
+  margin-bottom: 35px;
+  position: relative;
 }
 
 
@@ -3755,6 +3769,9 @@ form .error {
     -webkit-transition: all 0.3s ease-in-out 0s;
 }
 
+/*.alt-icon-right {
+  margin-right: 25%;
+}*/
 .alt-icon-top {
     margin-bottom: 25px;
     text-align: center;
@@ -3803,7 +3820,7 @@ form .error {
 .portfolio-grid .portfolio-item {
     position: relative;
     float: left;
-    width: 33.33333333333333%;
+    width: 50%;
     height: auto;
     margin: 0px;
     padding: 15px;
@@ -3813,7 +3830,7 @@ form .error {
 
 @media (max-width: 1170px) {
     .portfolio-grid .portfolio-item {
-        width: 33.33333333333333%;
+        width: 50%;
     }
 }
 

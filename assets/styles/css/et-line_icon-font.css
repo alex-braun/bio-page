@@ -4,7 +4,8 @@
 	src:url('../fonts/et-line_icon-font/et-line.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/et-line_icon-font/et-line.woff') format('woff'),
 		url('../fonts/et-line_icon-font/et-line.ttf') format('truetype'),
-		url('../fonts/et-line_icon-font/et-line.svg#et-line') format('svg');
+		url('../fonts/et-line_icon-font/et-line.svg#et-line') format('svg'),
+		url('../fonts/et-line_icon-font/et-line.svg');
 	font-weight: normal;
 	font-style: normal;
 }
