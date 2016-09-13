@@ -883,8 +883,8 @@ form label.error {
 
 /*padding*/
 .section-padding {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .section-padding-t {
@@ -2885,6 +2885,9 @@ header.header-prepare .nav-bar-icon > span::after {
     font-size: 12px;
 }
 
+#skills {
+  height: 700px;
+}
 
 
 /*------------------------------------------------------------------*/
