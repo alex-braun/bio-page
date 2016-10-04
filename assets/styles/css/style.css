@@ -3832,7 +3832,31 @@ form .error {
     padding: 15px;
     display: block;
 }
+.portfolio-list {
+  color: rgba(34,34,34,1);
+  margin: 0;
+        padding: 0;
+        list-style: none;
+    font-family: inherit;
+    display: block;
+    font-size: 11px;
+    line-height: 1.6;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+}
 
+.portfolio-title {
+  text-align: center;
+}
+
+.portfolio-item h2 {
+  margin-bottom: 0px;
+}
 
 @media (max-width: 1170px) {
     .portfolio-grid .portfolio-item {
