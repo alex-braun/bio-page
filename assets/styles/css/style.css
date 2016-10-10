@@ -3713,7 +3713,7 @@ form .error {
     right: 0;
 }
 
-.alt-icon-left, .alt-icon-right {
+.alt-icon-left, .alt-icon-right, .alt-icon-center {
     top: 5px;
 }
 
@@ -3761,10 +3761,16 @@ form .error {
   margin-bottom: 35px;
   position: relative;
 }
+.content-box.alt-center {
+  /*padding-right: 65px;*/
+  height: 60px;
+  text-align: center;
+  margin-bottom: 35px;
+  position: relative;
+}
 
 
-
-.alt-icon-top, .alt-icon-left, .alt-icon-right {
+.alt-icon-top, .alt-icon-left, .alt-icon-right, .alt-icon-center {
     color: #222;
     display: inline-block !important;
     font-size: 35px;
