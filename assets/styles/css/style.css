@@ -3897,11 +3897,28 @@ form .error {
         -o-transition: all 0.3s ease 0s;
         -moz-transition: all 0.3s ease 0s;
         -webkit-transition: all 0.3s ease 0s;
+
+        /*width: 100%;*/
+        /*width: 550px;
+        height: 300px;*/
+        /*overflow: hidden;*/
     }
 
-        .portfolio-box .portfolio-image-wrap img {
-            width: 100%;
+        .portfolio-image-wrap {
+          /*width: 100%;
+          height: 300px;
+          overflow: hidden;*/
         }
+        .portfolio-box .portfolio-image-wrap img {
+          width: 100%;
+        }
+
+        /*.portfolio-image-wrap > img {
+
+          width: 100%;
+
+          object-fit: none;
+        }*/
 
     .portfolio-box:hover .portfolio-image-wrap {
         transform: scale(1.1);
