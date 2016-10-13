@@ -3714,7 +3714,12 @@ form .error {
 }
 
 .alt-icon-left, .alt-icon-right, .alt-icon-center {
-    top: 5px;
+    /*top: 5px;*/
+}
+
+.fa-cc-stripe {
+  font-weight: 400;
+  font-size: 2em;
 }
 
 .icon-left, .icon-right {
